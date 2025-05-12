@@ -27,7 +27,7 @@
 .fnav.onhover { opacity:0; filter: alpha(opacity=0); } 
 .fnav.onhover:hover { opacity:0.6; -webkit-transition-property: opacity, -webkit-transform; -webkit-transition-duration: .8s, .8s; filter: alpha(opacity=60); }
 .frwd { left:0; background-image:url(../images/slideshow/previous-button.png); }
-.ffwd { right:0; background-image:url(http://areyoudevoted.squarespace.com/universal/images/slideshow/next-button.png); }
+.ffwd { right:0; background-image:url(https://phoenixperry.github.io/DevotionGallery/universal/images/slideshow/next-button.png); }
 
 /*-- nav outside --*/
 

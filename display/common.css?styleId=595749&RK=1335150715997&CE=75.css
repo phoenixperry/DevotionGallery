@@ -50,7 +50,7 @@ textarea { height: 120px; }
 
 .folder-link { -moz-outline: 0; }
 
-.verticalNavigationBar .folder-open a.folder-link { background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/folder-contract.png) center left no-repeat; padding-left: 15px; }
+.verticalNavigationBar .folder-open a.folder-link { background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/folder-contract.png) center left no-repeat; padding-left: 15px; }
 .verticalNavigationBar .folder-open ul { }
 .verticalNavigationBar .folder-closed a.folder-link{ background: transparent url(../universal/images/core-resources/icons/light/folder-expand.png) center left no-repeat; padding-left: 15px; }
 
@@ -79,7 +79,7 @@ textarea { height: 120px; }
 .offsite-link {         background: transparent url(../universal/images/core-resources/icons/light/open-off-site.png) center right no-repeat; padding-right: 13px; margin-right: 1px; }
 .offsite-link-inline {  background: transparent url(../universal/images/core-resources/icons/light/open-off-site.png) center right no-repeat; padding-right: 13px; margin-right: 1px; }
 .folder-link-expand {   background: transparent url(../universal/images/core-resources/icons/light/folder-expand.png) center center no-repeat;   padding: 0 6px 0 6px; line-height: 9px; font-size: 9px; cursor: pointer; }
-.folder-link-contract { background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/folder-contract.png) center center no-repeat; padding: 0 6px 0 6px; line-height: 9px; font-size: 9px; cursor: pointer; }
+.folder-link-contract { background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/folder-contract.png) center center no-repeat; padding: 0 6px 0 6px; line-height: 9px; font-size: 9px; cursor: pointer; }
 
 
 /* --- image floating / editor constructs ------------------------------------------------------ */
@@ -277,7 +277,7 @@ textarea { height: 120px; }
  
  /* V1 */
 .discussion-comment-list { margin: 0; padding: 0;  }
-.discussion-comment-list li { list-style-type: none; background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/comment.png) no-repeat 0px 1px; padding-bottom: 10px; margin-top: 10px; padding-left: 24px; border-bottom: 1px solid #$LightBorderColor$;  }
+.discussion-comment-list li { list-style-type: none; background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/comment.png) no-repeat 0px 1px; padding-bottom: 10px; margin-top: 10px; padding-left: 24px; border-bottom: 1px solid #$LightBorderColor$;  }
 .discussion-comment-list li:last-child { border: 0; margin-bottom: 0; padding-bottom: 0; }
 .discussion-comment-list li .post-title { display: inline; }
 
@@ -290,7 +290,7 @@ textarea { height: 120px; }
   
 .discussion-table-row td { padding: 2px; }
 
-.discussion-table-row .icon-cell { width: 22px; background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/comment.png) no-repeat 1px 10px; }
+.discussion-table-row .icon-cell { width: 22px; background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/comment.png) no-repeat 1px 10px; }
   
 .discussion-table-row .topic-cell { padding: 7px 0 5px 0; }
 .discussion-table-row .topic-cell .topic-text { font-size: 14px; }
@@ -485,7 +485,7 @@ a.twitter-button-older { display:block; float:right; }
 .bubble .twitter-item-bubble { margin-top:15px; }
 .bubble .twitter-item-bubble.highlight { margin-top:0; }
 .bubble .twitter-item-content-bubble { background:#fff; color:#111; padding:1em; -moz-border-radius:8px; -webkit-border-radius:8px; overflow: hidden; }
-.bubble .twitter-item-slug { background:url(http://areyoudevoted.squarespace.com/universal/images/social/bubble-stem.png) 22px top no-repeat; padding:22px 0 0; line-height:1.4em; }
+.bubble .twitter-item-slug { background:url(https://phoenixperry.github.io/DevotionGallery/universal/images/social/bubble-stem.png) 22px top no-repeat; padding:22px 0 0; line-height:1.4em; }
 .bubble .twitter-nav-buttons { padding:0 10px; margin:10px 0; -moz-border-radius:4px; -webkit-border-radius:4px; border:none; }
 .bubble .twitter-content { padding:15px; margin-bottom:0; }
 
@@ -623,11 +623,11 @@ a.twitter-button-older { display:block; float:right; }
 
 .date-icon { background: transparent url(../universal/images/core-resources/icons/light/date.png) top left no-repeat; }
 .permalink-icon { background: transparent url(../universal/images/core-resources/icons/light/permalink.png) top left no-repeat; }
-.comment-icon { background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/comment.png) top left no-repeat; }
+.comment-icon { background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/comment.png) top left no-repeat; }
 .user-registered-icon { background: transparent url(../universal/images/core-resources/icons/light/user-registered.png) top left no-repeat; }
-.reference-icon { background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/reference.png) top left no-repeat; }
+.reference-icon { background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/reference.png) top left no-repeat; }
 .print-icon { background: transparent url(../universal/images/core-resources/icons/light/print.png) top left no-repeat; }
-.email-icon { background: transparent url(http://areyoudevoted.squarespace.com/universal/images/core-resources/icons/light/email.png) top left no-repeat; }
+.email-icon { background: transparent url(https://phoenixperry.github.io/DevotionGallery/universal/images/core-resources/icons/light/email.png) top left no-repeat; }
 .share-icon { background: transparent url(../universal/images/core-resources/icons/light/share.png) top left no-repeat; }
 .category-icon { background: transparent url(../universal/images/core-resources/icons/light/category.png) top left no-repeat;  }
 .tag-icon { background: transparent url(../universal/images/core-resources/icons/light/category.png) top left no-repeat;  }
@@ -804,7 +804,7 @@ h2.title a:hover{color: #A8C12E;}
 #prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
 #prevLink { left: 0; float: left;}
 #nextLink { right: 0; float: right;}
-#prevLink:hover, #prevLink:visited:hover { background: url(http://areyoudevoted.squarespace.com/storage/UIImages/lightBox/prevlabel.gif) left 15% no-repeat; }
+#prevLink:hover, #prevLink:visited:hover { background: url(https://phoenixperry.github.io/DevotionGallery/storage/UIImages/lightBox/prevlabel.gif) left 15% no-repeat; }
 #nextLink:hover, #nextLink:visited:hover { background: url(../storage/UIImages/lightBox/nextlabel.gif) right 15% no-repeat; }
 
 #imageDataContainer{ font: 9px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1em; overflow: auto; width: 100%	; }
@@ -918,9 +918,9 @@ textarea { padding: 1px 3px; }
 #modulePage5476004 .body { background-color:#211b1b; padding: 10px;}
 #modulePage4442204 .form-body { background-color:#211b1b; padding: 0 10px 10px 10px;}
 
-.journal-entry-navigation { margin-bottom:0; border-bottom: 2px solid #000000; 0; background: #252222; padding:2px 10px; text-align: right; background-image: url(http://areyoudevoted.squarespace.com/storage/uiimages/subNavlines.png);
+.journal-entry-navigation { margin-bottom:0; border-bottom: 2px solid #000000; 0; background: #252222; padding:2px 10px; text-align: right; background-image: url(https://phoenixperry.github.io/DevotionGallery/storage/uiimages/subNavlines.png);
 }
-.journal-filter-header { margin-bottom: 1px; padding-right: 5px;text-align: right; background-image: url(http://areyoudevoted.squarespace.com/storage/uiimages/subNavlines.png);}
+.journal-filter-header { margin-bottom: 1px; padding-right: 5px;text-align: right; background-image: url(https://phoenixperry.github.io/DevotionGallery/storage/uiimages/subNavlines.png);}
 /*homepage css here we go! */
 body {background-color: #000000; margin:auto;}
 #wrapper {position: relative; width: 960px; margin: 0 auto; text-align: left; }
@@ -988,7 +988,7 @@ body {background-color: #000000; margin:auto;}
 }
 
 .button a{
-	background: #e83598 url(http://areyoudevoted.squarespace.com/storage/UIImages/button.jpg) no-repeat top left;
+	background: #e83598 url(https://phoenixperry.github.io/DevotionGallery/storage/UIImages/button.jpg) no-repeat top left;
 	font: 11px/1.5 Helvetica, Arial, sans-serif; 
 	padding: 4px;
 	margin: 5px;

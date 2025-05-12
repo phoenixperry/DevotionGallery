@@ -32,7 +32,7 @@ li { margin-bottom: 4px; }
 
 #notice-error { background: #f4f4f4 url(../images/error-pages/error-icon.png) no-repeat 30px 60px; }
 #notice-check { background: #f4f4f4 url(../images/error-pages/check-icon.png) no-repeat 30px 60px; }
-#notice-sorry { background: #f4f4f4 url(http://areyoudevoted.squarespace.com/universal/images/error-pages/sorry-icon.png) no-repeat 30px 60px; }
+#notice-sorry { background: #f4f4f4 url(https://phoenixperry.github.io/DevotionGallery/universal/images/error-pages/sorry-icon.png) no-repeat 30px 60px; }
 #notice-domain { background: #f4f4f4 url(../images/error-pages/missing-domain-icon.png) no-repeat 30px 80px; }
 
 .notice-message { margin: 40px 50px 40px 0; padding-left: 120px; text-shadow: 0 0 1px #ffffff; }
