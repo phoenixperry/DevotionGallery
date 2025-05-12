@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap file
+Sitemap: https://phoenixperry.github.io/DevotionGallery//sitemap.xml
