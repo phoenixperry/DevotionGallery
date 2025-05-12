@@ -1,0 +1,46 @@
+body { background: #f4f4f4 url(../images/error-pages/pizazz-light.png); font-size: 14px; font-family: 'Helvetica Neue', 'HelveticaNeue', Arial, Sans-Serif; line-height: 1.46em; margin: 0px; color: #646464; }
+#error-page { overflow: hidden; }
+h2 { font-family: sentinel, georgia, times, serif; font-size: 48px; font-weight: bold; color: #333333; margin-bottom: 0px; text-shadow: 0 0 1px #ffffff; margin-bottom: 15px; }
+h3 { font-family: sentinel, georgia, times, serif; font-size: 18px; font-weight: bold; color: #333333; margin-bottom: 0px; text-shadow: 0 0 1px #ffffff; }
+strong { font-weight: 600; color: #333333; }
+a { color: #333333; text-decoration: none; border-bottom: 1px dotted #333333; font-weight: 400; }
+a:hover { color: #000; text-decoration: none; border-bottom: 1px dotted #000; }
+#footer a { border-bottom: none; font-weight: 500; }
+ul { list-style-type: none; padding: 0px; }
+li { margin-bottom: 4px; }
+#pageContent { width: 960px; padding: 0 6px; margin: 0 auto; }
+#header { margin-top: 55px; overflow: hidden; }
+#logo { width: 230px; float: left; }
+#footerContent { width: 100%; overflow: hidden; }
+#navigation { width: 730px; float: right; text-align: right; }
+
+#logo a { border: none; }
+
+
+#noticeWrapper {
+  background: #ffffff; margin: 30px 0 30px 0px; padding: 30px;
+  -webkit-box-shadow: 0px 0px 6px #ccc;
+  -moz-box-shadow: 0px 0px 6px #ccc;
+  box-shadow: 0px 0px 6px #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 0 1px #ffffff;
+}
+
+.notice { -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; overflow: hidden; padding: 30px; color: #404040; font-size: 18px; line-height: 1.46em; -webkit-box-shadow: 0px 0px 4px #ccc inset; -moz-box-shadow: 0px 0px 4px #ccc inset; box-shadow: 0px 0px 4px #ccc inset; }
+
+#notice-error { background: #f4f4f4 url(../images/error-pages/error-icon.png) no-repeat 30px 60px; }
+#notice-check { background: #f4f4f4 url(../images/error-pages/check-icon.png) no-repeat 30px 60px; }
+#notice-sorry { background: #f4f4f4 url(http://areyoudevoted.squarespace.com/universal/images/error-pages/sorry-icon.png) no-repeat 30px 60px; }
+#notice-domain { background: #f4f4f4 url(../images/error-pages/missing-domain-icon.png) no-repeat 30px 80px; }
+
+.notice-message { margin: 40px 50px 40px 0; padding-left: 120px; text-shadow: 0 0 1px #ffffff; }
+
+.col-three { width: 300px; float: left; margin-left: 0px; }
+.col-three p { margin-right: 5px; }
+#col-threeWrapper { overflow: hidden; margin-bottom: 80px;}
+.col-three + .col-three { margin-left: 30px; }
+#footer { width: 960px; margin: 0 auto; padding: 0 0 60px 0; overflow: hidden; color: #555555; font-size: 11px; line-height: 2em; }
+
+.externalLoginFrame { position: absolute; border: none !important; float: right; margin-left: 565px; }
