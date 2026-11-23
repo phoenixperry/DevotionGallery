@@ -39,9 +39,11 @@
     var link = links[current];
     var thumb = link.querySelector("img");
     var text = (thumb && thumb.alt) || link.title || "";
+    // Photos from other people carry their credit in data-credit.
+    var credit = link.getAttribute("data-credit");
     image.src = link.href;
     image.alt = text;
-    caption.textContent = text + "  (" + (current + 1) + " of " + links.length + ")";
+    caption.textContent = text + (credit ? ". " + credit : "") + "  (" + (current + 1) + " of " + links.length + ")";
   }
 
   links.forEach(function (link, index) {
