@@ -1,63 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/exhibitions/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/videos/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/artists/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/events/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/press/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/about/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/blog/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/friend/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://phoenixperry.github.io/DevotionGallery/mailinglist/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
+<url><loc>https://devotiongallery.com/</loc></url>
+<url><loc>https://devotiongallery.com/about/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/</loc></url>
+<url><loc>https://devotiongallery.com/artists/</loc></url>
+<url><loc>https://devotiongallery.com/events/</loc></url>
+<url><loc>https://devotiongallery.com/learn/</loc></url>
+<url><loc>https://devotiongallery.com/videos/</loc></url>
+<url><loc>https://devotiongallery.com/blog/</loc></url>
+<url><loc>https://devotiongallery.com/press/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/babycastles-presents-dadamachinima/</loc></url>
+<url><loc>https://devotiongallery.com/events/aroccupywallstreet/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-live-8-immersion/</loc></url>
+<url><loc>https://devotiongallery.com/events/robert-henke-monolake-performs-new-york-city-dust/</loc></url>
+<url><loc>https://devotiongallery.com/events/devotion-gallery-presents-expansive-visions-thetedxbrooklyn/</loc></url>
+<url><loc>https://devotiongallery.com/artists/softlab/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/nicole-aptekar-expanded-taxonomy/</loc></url>
+<url><loc>https://devotiongallery.com/artists/bill-brown/</loc></url>
+<url><loc>https://devotiongallery.com/artists/benton-c-bainbridge/</loc></url>
+<url><loc>https://devotiongallery.com/press/sound-postcards-on-pri-with-an-interview-with-mat-schulz/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/katie-shima-living-machines/</loc></url>
+<url><loc>https://devotiongallery.com/artists/scott-draves/</loc></url>
+<url><loc>https://devotiongallery.com/artists/paul-prudence/</loc></url>
+<url><loc>https://devotiongallery.com/artists/marius-watz/</loc></url>
+<url><loc>https://devotiongallery.com/artists/david-last/</loc></url>
+<url><loc>https://devotiongallery.com/artists/arnold-steiner/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/chris-jorden-reflection-on-impact/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/mark-skwarek-ar-intervention/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/scott-draves-pioneer-of-generative-art/</loc></url>
+<url><loc>https://devotiongallery.com/videos/videos-from-devotion-shows-and-artists-2010/</loc></url>
+<url><loc>https://devotiongallery.com/blog/analogous-projects-presents-digital-emergence-and-social-int/</loc></url>
+<url><loc>https://devotiongallery.com/blog/multi-user-art/</loc></url>
+<url><loc>https://devotiongallery.com/blog/2010-line-up-ready-to-announce/</loc></url>
+<url><loc>https://devotiongallery.com/artists/bethany-shorb/</loc></url>
+<url><loc>https://devotiongallery.com/blog/the-analogous-residency-kicks-off-tonight/</loc></url>
+<url><loc>https://devotiongallery.com/blog/rj-valeo-at-the-vip-private-devotion-opening/</loc></url>
+<url><loc>https://devotiongallery.com/artists/sabine-gruffat/</loc></url>
+<url><loc>https://devotiongallery.com/events/perpetrators-daily-bread/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/art-of-failure/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/airtimedevotion-exhibition-series/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/devotion-gallery-presents-dan-tesene-lessons-of-excess/</loc></url>
+<url><loc>https://devotiongallery.com/events/morgan-packard-smirk-joshue-ott-ezekiel-honig/</loc></url>
+<url><loc>https://devotiongallery.com/artists/phillip-stearns/</loc></url>
+<url><loc>https://devotiongallery.com/artists/zach-poff/</loc></url>
+<url><loc>https://devotiongallery.com/blog/airtime-kicks-off-tonight/</loc></url>
+<url><loc>https://devotiongallery.com/learn/scrapcyclereuserecombine-questionable-edibles-lecture-and-ta/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/softlab-presents-chromaesthesiae/</loc></url>
+<url><loc>https://devotiongallery.com/artists/softlab-1/</loc></url>
+<url><loc>https://devotiongallery.com/blog/2010-booked/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/spectrograph-maximus-clarke-ted-hayes/</loc></url>
+<url><loc>https://devotiongallery.com/events/aire-the-second-fourfold-root/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/deborah-yoon/</loc></url>
+<url><loc>https://devotiongallery.com/blog/analogous-projects-presents-upcycled-events-as-part-of-scrap/</loc></url>
+<url><loc>https://devotiongallery.com/learn/scrapcycle-for-kids-repurposed-planters-and-upcycled-gaming/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/gradually-melt-the-sky-a-curatorial-project-by-mark-skwarek/</loc></url>
+<url><loc>https://devotiongallery.com/artists/phoenix-perry/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/daniel-temkin-981034-bottles-of-beer-on-the-wall/</loc></url>
+<url><loc>https://devotiongallery.com/events/free103point9-presents-bike-box-performance-by-jonny-farrow/</loc></url>
+<url><loc>https://devotiongallery.com/press/softlab-presents-chromaesthesiae-and-the-press-goes-viral/</loc></url>
+<url><loc>https://devotiongallery.com/artists/torinomargolis/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/pherepaphe-the-fourfold-roots-of-everything/</loc></url>
+<url><loc>https://devotiongallery.com/blog/analogous-projects-in-the-new-york-times/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/morgan-packard-dihedral-product/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/scrapcyclereuserecombine/</loc></url>
+<url><loc>https://devotiongallery.com/learn/brooklyns-first-ableton-certified-training-center/</loc></url>
+<url><loc>https://devotiongallery.com/artists/mat-schutz-rui-silva/</loc></url>
+<url><loc>https://devotiongallery.com/blog/the-devoted-lab/</loc></url>
+<url><loc>https://devotiongallery.com/artists/tanya-newton-john-ryan-junell/</loc></url>
+<url><loc>https://devotiongallery.com/artists/carrie-mae-rose/</loc></url>
+<url><loc>https://devotiongallery.com/artists/brett-balogh/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/algorithmic-unconscious/</loc></url>
+<url><loc>https://devotiongallery.com/press/press-for-bethany-shorbs-supplemental-restraint/</loc></url>
+<url><loc>https://devotiongallery.com/press/sloppy-journalism-that-i-guess-we-were-happy-to-get/</loc></url>
+<url><loc>https://devotiongallery.com/events/free103point9-presents-bike-box-performance-by-jesse-stiles/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/secret-devotion/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/ted-hayes-and-lindsey-case-ophos/</loc></url>
+<url><loc>https://devotiongallery.com/blog/bike-box-is-on-daily-candy/</loc></url>
+<url><loc>https://devotiongallery.com/learn/scrapcyclereuserecombine-break-breadboards-tutorial-and-demo/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/devotion-gallery-presents-the-root-of-the-root/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/bethany-shorb-supplemental-restraint-system/</loc></url>
+<url><loc>https://devotiongallery.com/artists/elisabeth-timpone/</loc></url>
+<url><loc>https://devotiongallery.com/press/make-magazine-we-really-love-you-1/</loc></url>
+<url><loc>https://devotiongallery.com/blog/softlab-preview-images/</loc></url>
+<url><loc>https://devotiongallery.com/artists/softlab-2/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/jeremy-bailey-less-important-portraits/</loc></url>
+<url><loc>https://devotiongallery.com/artists/dan-tesene/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/digital-intelligence-analogous-interactions/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/sprawl-sougwen-david-last-and-margaret-schedel/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/lara-grant/</loc></url>
+<url><loc>https://devotiongallery.com/events/scrapcyclereuserecombine-landfilles-dis-play-waste-performan/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/devotion-gallery-presents-shearglory-a-group-exhibition-for/</loc></url>
+<url><loc>https://devotiongallery.com/blog/yoxi-launches-competition-to-increasing-bike-traffic-in-nyc/</loc></url>
+<url><loc>https://devotiongallery.com/artists/aaron-meyers/</loc></url>
+<url><loc>https://devotiongallery.com/press/the-root-of-the-root-is-on-creative-applications-and-others/</loc></url>
+<url><loc>https://devotiongallery.com/press/the-new-york-times/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/bethany-shorb-painting-machines/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/david-linton/</loc></url>
+<url><loc>https://devotiongallery.com/blog/sound-postcards-in-the-nytimes/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/unsound-festival-photographs-by-stephen-cardinale/</loc></url>
+<url><loc>https://devotiongallery.com/press/wired-and-npr-shout-out-for-gradually-melt-the-sky/</loc></url>
+<url><loc>https://devotiongallery.com/press/bike-box-is-on-daily-candy/</loc></url>
+<url><loc>https://devotiongallery.com/learn/scrapcyclereuserecombine-landfilles-collaborative-build/</loc></url>
+<url><loc>https://devotiongallery.com/blog/bike-box-geo-tagged-tours-start-at-2pm-saturday-july-17th/</loc></url>
+<url><loc>https://devotiongallery.com/artists/joshue-ott/</loc></url>
+<url><loc>https://devotiongallery.com/press/wired-blog/</loc></url>
+<url><loc>https://devotiongallery.com/events/infinite-light-limited-edition-video-premiere/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/joshue-ott-presents-multi-user-art/</loc></url>
+<url><loc>https://devotiongallery.com/learn/getting-your-face-out-from-behind-the-screen-creating-a-remo/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/vatica-dahlia-rites/</loc></url>
+<url><loc>https://devotiongallery.com/artists/keep-adding/</loc></url>
+<url><loc>https://devotiongallery.com/artists/elena-rose-ailes/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/recolony-a-short-film-by-ryan-junell-tanya-newton-john/</loc></url>
+<url><loc>https://devotiongallery.com/learn/cmos-music-1-bit-modular-digital-synthesis/</loc></url>
+<url><loc>https://devotiongallery.com/artists/sougwen-chung/</loc></url>
+<url><loc>https://devotiongallery.com/events/319-scholes-and-devotion-gallery-present-the-shift/</loc></url>
+<url><loc>https://devotiongallery.com/blog/unsound-festival-photo-previews/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/unsound-festival-presents-sound-postcards/</loc></url>
+<url><loc>https://devotiongallery.com/events/scrapcyclereuserecombine-analogous-interaction-art-incubator/</loc></url>
+<url><loc>https://devotiongallery.com/learn/smart-art-making-digital-media-connect-by-joshue-ott-and-pet/</loc></url>
+<url><loc>https://devotiongallery.com/blog/benton-c-bainbridge-in-the-gallery-this-saturday/</loc></url>
+<url><loc>https://devotiongallery.com/blog/unsound-festival/</loc></url>
+<url><loc>https://devotiongallery.com/events/nicole-aptekar-expanded-taxonomy/</loc></url>
+<url><loc>https://devotiongallery.com/exhibitions/benton-c-bainbridge-and-phoenix-perry-impromptu/</loc></url>
+<url><loc>https://devotiongallery.com/learn/maxmsp-101/</loc></url>
+<url><loc>https://devotiongallery.com/learn/drone-workshop-a-history-and-explanation-of-sustained-sound-in-music/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-live-101-w-brian-jackson/</loc></url>
+<url><loc>https://devotiongallery.com/learn/goodies/win-an-ableton-live-8-tutorial-dvd/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-live-202-record-edit-mix/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/ezekial-honig/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-live-404-advanced-seminar/</loc></url>
+<url><loc>https://devotiongallery.com/learn/logic-101/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/flavio-gaete-mm/</loc></url>
+<url><loc>https://devotiongallery.com/learn/synthesis-101/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-live-advanced-seminar-with-brian-jackson/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/matthew-patterson-curry/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/brian-jackson-ma/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/marius-watz/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/adrian-michna/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-basics/</loc></url>
+<url><loc>https://devotiongallery.com/learn/ableton-303-from-idea-to-reality-making-live-yours/</loc></url>
+<url><loc>https://devotiongallery.com/learn/processing-an-intro-to-creative-coding-with-marius-watz/</loc></url>
+<url><loc>https://devotiongallery.com/learn/music-theory-for-electronic-and-indie-musicians-101/</loc></url>
+<url><loc>https://devotiongallery.com/learn/teachers/david-last/</loc></url>
 </urlset>

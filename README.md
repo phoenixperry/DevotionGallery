@@ -1,51 +1,62 @@
-# Devotion Gallery Website
+# Devotion Gallery archive
 
-This repository contains the static website for Devotion Gallery, migrated from a former Squarespace site to GitHub Pages.
+The archive of Devotion Gallery, 54 Maujer Street, Williamsburg, Brooklyn (2009–2014), at **https://devotiongallery.com**.
 
-## Site Structure
+It's a plain static site: hand-written HTML pages, one stylesheet and web-sized images, served by GitHub Pages. There's no build step, no framework and no JavaScript.
+
+## How it's organised
 
 ```
-devotion-gallery/
-├── css/                  # Stylesheets
-│   ├── common.css        # Main styles
-│   └── gallery-slideshow.css  # Gallery/slideshow specific styles
-├── images/               # Image assets
-│   └── slideshow/        # Slideshow controls
-├── js/                   # JavaScript files
-│   ├── site.js           # Main functionality
-│   └── vendor/           # Third-party libraries
-├── storage/              # Image content and uploads
-└── index.html            # Homepage
+index.html                 home: the 2009–2014 memorial
+about/                     about the gallery
+exhibitions/<slug>/        one folder per exhibition
+artists/<slug>/            one folder per artist
+events/<slug>/             events
+learn/<slug>/              classes and workshops (from the gallery site and learn.areyoudevoted.com)
+learn/teachers/<slug>/     teacher bios from the learn site
+learn/goodies/<slug>/      offers from the learn site
+blog/, press/, videos/     the same pattern
+assets/css/style.css       the only stylesheet
+assets/img/<section>/<slug>/   images for each page (max 1600px; thumbnails end in -thumb)
+assets/files/              PDFs the old pages linked to
+feed.xml, sitemap.xml, robots.txt, 404.html, CNAME
 ```
 
-## Pages
+Each section's `index.html` lists its pages. Every post page has the section list beside it and previous/next links underneath.
 
-- Home
-- Exhibitions
-- Videos
-- Artists
-- Events
-- Community
-  - RSS Feed
-  - Mailing List
-  - Friends
-  - Login
-  - Blog
-- Press
-- About
-- Search
+**Old addresses still work.** Files such as `exhibitions/2012/4/2/nicole-aptekar-expanded-taxonomy.html` are small pages that send visitors to the new address.
 
-## Development
+## Adding or changing a page
 
-This site is built with plain HTML, CSS, and JavaScript, with no build tools or frameworks required.
+1. Copy a page of the same kind (for example `exhibitions/lara-grant/index.html`) to a new folder named after the page.
+2. Change the `<title>`, the `description` and `canonical` tags, the heading, the date and the text inside `<div class="prose">`.
+3. Put its images in `assets/img/<section>/<slug>/`, at most 1600px on the long side, and give every image `alt` text plus `width` and `height`.
+4. Add a card for it to the section's `index.html`, and its link to the sidebar list on the other pages in that section.
+5. Check it locally (below).
 
-## Deployment
+## Checking it locally
 
-The site is hosted using GitHub Pages. To deploy:
+From this folder:
 
-1. Push changes to the `main` branch
-2. GitHub Actions will automatically build and deploy the site to GitHub Pages
+```
+python3 -m http.server 8000
+```
 
-## License
+Then open http://localhost:8000. Links start with `/`, so open the site from this folder rather than as files.
 
-Copyright © 2009-2023, DEVOTION GALLERY. All rights reserved.
+To lint the CSS (the first run installs the pinned stylelint in `tools/css-lint`):
+
+```
+./scripts/lint-css.sh --fix
+./scripts/lint-css.sh
+```
+
+## Style rules
+
+See `CLAUDE.md` for the rules this site follows: credits, the lost areyoudevoted.com domain, and the CSS and accessibility style.
+
+## History
+
+- The original Squarespace v5 mirror is kept in git as the tag `squarespace-mirror-2014`.
+- The version published before this rebuild is the tag `published-before-rebuild`.
+- areyoudevoted.com now belongs to someone else, so nothing here links to it.
