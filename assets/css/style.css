@@ -51,7 +51,11 @@
   --width-site: 58rem;
   --width-sidebar: 14rem;
   --width-prose: 42rem;
-  --size-thumb: 9.5rem;
+  --size-thumb: 12rem;
+  --size-photo: 13rem;
+
+  /* The viewer's backdrop: near-black so photos stand out. */
+  --colour-backdrop: rgb(0 0 0 / 92%);
 }
 
 /* 2. Base: element defaults, kept weak with :where() so patterns win. */
@@ -289,6 +293,7 @@
 
 /* Old posts show rows of linked thumbnails; keep them side by side. */
 .prose a img {
+  cursor: zoom-in;
   vertical-align: top;
   margin: 0 var(--space-1) var(--space-1) 0;
 }
@@ -313,6 +318,153 @@
   margin-top: var(--space-6);
   color: var(--colour-muted);
   font-size: var(--text-s);
+}
+
+/* Lead image across the top of a post. */
+.hero {
+  display: block;
+  background: var(--colour-page);
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+/* Photos from the show, and related lists (artists, shows). */
+.photos,
+.related {
+  margin-top: var(--space-8);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--colour-line);
+}
+
+.photos h2,
+.related h2 {
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-m);
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--size-photo), 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.photo-grid a {
+  display: block;
+}
+
+.photo-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Videos hosted with the site. */
+.video-file {
+  margin: var(--space-6) 0 0;
+}
+
+.video-file video {
+  display: block;
+  width: 100%;
+  background: var(--colour-page);
+}
+
+.video-file figcaption,
+.press-image figcaption {
+  margin-top: var(--space-1);
+  color: var(--colour-muted);
+  font-size: var(--text-s);
+}
+
+/* The article image at the top of a press post. */
+.press-image {
+  margin: 0;
+  padding: var(--space-4) var(--space-4) 0;
+}
+
+/* The blog: every post, one after another. */
+.flow-post + .flow-post {
+  margin-top: var(--space-8);
+}
+
+.flow-post .panel-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flow-post .panel-title a:hover {
+  text-decoration: underline;
+}
+
+/* Photo viewer (assets/js/lightbox.js): a full-screen dialog. */
+.viewer {
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  max-height: none;
+  margin: 0;
+  padding: var(--space-12) var(--space-4) var(--space-4);
+  border: 0;
+  background: transparent;
+  color: var(--colour-text);
+}
+
+.viewer::backdrop {
+  background: var(--colour-backdrop);
+}
+
+.viewer-figure {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.viewer-image {
+  max-width: 100%;
+  max-height: calc(100vh - 8rem);
+  object-fit: contain;
+}
+
+.viewer-caption {
+  margin-top: var(--space-2);
+  font-size: var(--text-s);
+  text-align: center;
+}
+
+.viewer-button {
+  position: fixed;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--colour-line);
+  background: var(--colour-panel-bar);
+  color: var(--colour-text-strong);
+  font: inherit;
+  font-size: var(--text-s);
+  cursor: pointer;
+}
+
+.viewer-close {
+  top: var(--space-3);
+  right: var(--space-3);
+}
+
+.viewer-previous {
+  top: 50%;
+  left: var(--space-3);
+}
+
+.viewer-next {
+  top: 50%;
+  right: var(--space-3);
 }
 
 /* Previous and next links under a post. */

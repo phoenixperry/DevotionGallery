@@ -2,7 +2,7 @@
 
 The archive of Devotion Gallery, 54 Maujer Street, Williamsburg, Brooklyn (2009–2014), at **https://devotiongallery.com**.
 
-It's a plain static site: hand-written HTML pages, one stylesheet and web-sized images, served by GitHub Pages. There's no build step, no framework and no JavaScript.
+It's a plain static site: hand-written HTML pages, one stylesheet and web-sized images, served by GitHub Pages. There's no build step and no framework. The only JavaScript is `assets/js/lightbox.js`, a small photo viewer; without it, every photo is still a plain link to the full image.
 
 ## How it's organised
 
@@ -10,13 +10,15 @@ It's a plain static site: hand-written HTML pages, one stylesheet and web-sized 
 index.html                 home: the 2009–2014 memorial
 about/                     about the gallery
 exhibitions/<slug>/        one folder per exhibition
-artists/<slug>/            one folder per artist
+artists/<slug>/            one folder per artist, listing their shows at Devotion
 events/<slug>/             events
 learn/<slug>/              classes and workshops (from the gallery site and learn.areyoudevoted.com)
 learn/teachers/<slug>/     teacher bios from the learn site
 learn/goodies/<slug>/      offers from the learn site
 blog/, press/, videos/     the same pattern
 assets/css/style.css       the only stylesheet
+assets/js/lightbox.js      the photo viewer (opens linked images in a dialog)
+assets/video/              short videos from the gallery
 assets/img/<section>/<slug>/   images for each page (max 1600px; thumbnails end in -thumb)
 assets/files/              PDFs the old pages linked to
 feed.xml, sitemap.xml, robots.txt, 404.html, CNAME

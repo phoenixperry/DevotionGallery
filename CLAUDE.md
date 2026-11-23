@@ -22,7 +22,7 @@ A static archive of Devotion Gallery (Williamsburg, Brooklyn, 2009–2013), serv
 - **CSS order:** 1 Tokens (`:root` custom properties: colours, fonts, rem type scale, 4px spacing scale, `--focus`), 2 Base (element defaults in `:where()`), 3 Shared patterns, 4 Site frame, 5 Page parts, 6 Small screens. Use tokens, not raw values. One declaration per line, a comment above each group, a blank line before each comment. No inline styles, no dead rules; hide things with the `hidden` attribute.
 - **HTML:** semantic elements (`header`, `nav`, `main`, `article`, `footer`, ordered headings, lists). Every image has `alt` (`alt=""` if decorative), plus `width` and `height`. Pages work without JavaScript.
 - **Accessibility:** visible focus ring, WCAG AA contrast, text sizes in rem.
-- **JavaScript:** none unless there's no other way. If added, keep it small with a header comment, and have it toggle attributes, not write styles.
+- **JavaScript:** only `assets/js/lightbox.js` (photo viewer, a `<dialog>`). Every photo must still work as a plain link without it. Keep any JS small, commented, and toggling attributes rather than writing styles.
 - **Writing:** British spelling, plain language. Every CSS/JS file starts with a comment saying what it's for.
 - **Git:** branch from the published branch, one topic per commit, plain-sentence commit subjects. Never push or force-push without asking Phoenix.
 - **Check visually:** screenshots at 1280px and 390px wide for each page template, before and after a visual change.
