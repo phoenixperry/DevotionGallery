@@ -540,6 +540,22 @@
   font-size: var(--text-xs);
 }
 
+/* Artists page: names without a picture, in columns under the grid. */
+.more-artists {
+  margin-top: var(--space-8);
+}
+
+.name-list {
+  columns: 12rem;
+  column-gap: var(--space-6);
+  padding: 0;
+  font-size: var(--text-m);
+}
+
+.name-list li {
+  break-inside: avoid;
+}
+
 /* 6. Small screens */
 
 @media (width <= 48rem) {
