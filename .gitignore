@@ -34,3 +34,5 @@ ehthumbs.db
 Thumbs.db
 # Vagrant stuff
 .vagrant
+# CSS lint tooling installs here
+node_modules/
