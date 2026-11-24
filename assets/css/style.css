@@ -328,6 +328,20 @@
   font-size: var(--text-s);
 }
 
+/* Themes and tags at the foot of a post. */
+.terms {
+  margin-top: var(--space-6);
+  font-size: var(--text-s);
+}
+
+.terms p {
+  margin: 0 0 var(--space-1);
+}
+
+.terms-heading {
+  color: var(--colour-muted);
+}
+
 /* Lead image across the top of a post. */
 .hero {
   display: block;
